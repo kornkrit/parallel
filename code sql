@@ -1,0 +1,1 @@
+SELECT `question_id`,count(answer) FROM `answer` WHERE `course_id` = 'ITCS122' group by `question_id`,`answer`
